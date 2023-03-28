@@ -16,11 +16,11 @@ void addPatient(struct patient *p, int size)
 	for (i=0; i<size; i++) 
 	{ 
 		p[i].ID = i+1; 
-		printf("\nEnter patient name: "); 
+		printf("\nEnter patient 's name: "); 
 		scanf("%s", p[i].name); 
-		printf("\nEnter patient age: "); 
+		printf("\nEnter patient 's age: "); 
 		scanf("%d", &p[i].age); 
-		printf("\nEnter patient bill amount: "); 
+		printf("\nEnter patient 's bill amount: "); 
 		scanf("%f", &p[i].bill); 
 	} 
 } 
